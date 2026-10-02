@@ -29,3 +29,4 @@ print(f"{euros:.2f} EUR = {usd:.2f} USD")
 	
 >>>>>>> 45b68fc (ejercicio con 3 apartados)
 
+

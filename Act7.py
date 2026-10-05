@@ -1,25 +1,18 @@
+"""EUR/USD converter.
+    Author : Samuel Santiago
+    Date : 2026-10-05
+    Version: 1.0
+    Description:exercise of conversions
+"""
 
-""" """
-num1=int(input("write the first numer:"))
-num2=int(input("write the second numer:"))
-
-print(num1 + num2, "add")
-print(num1 - num2, "subtract")
-print(num1 * num2, "product")
-print(num1 / num2, "division")
-print(num1 // num2, "integer division")
-print(num1 % num2, "module")
-print(num1 ** num2, "power")
-
-
-
-
-# tarea 2
+#cogemos la variable de grados en C
 gradosC=int(input("grados celsius:")) 
+
+#hacemos el cambio a faren
 cambio_de_grados= (gradosC*9/5)+32
 print(cambio_de_grados, ("grados faren"))
 
-
+#esto es lo mismo, un cambio pero en euros 
 RATE_EUR_USD = 1.12
 euros = float(input("EUR: "))
 usd = euros * RATE_EUR_USD
